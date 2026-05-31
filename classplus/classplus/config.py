@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_BOT_TOKEN = os.getenv('8672374752:AAFIujzNvd88sMPQUKD-z7w_sJoGQz75tzU')
 
 # Database Configuration
 DATABASE_PATH = os.getenv('DATABASE_PATH', 'classplus_bot.db')
