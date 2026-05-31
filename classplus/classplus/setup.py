@@ -55,7 +55,7 @@ def create_env_file():
     print("3. Follow instructions to create bot")
     print("4. Copy the token provided\n")
     
-    token = input("Paste your TELEGRAM_BOT_TOKEN: ").strip()
+    token = input("8672374752:AAFIujzNvd88sMPQUKD-z7w_sJoGQz75tzU").strip()
     
     if not token:
         print("❌ Token required!")
@@ -64,7 +64,7 @@ def create_env_file():
     env_content = f"""# ClassPlus Telegram Bot Configuration
 # Get token from: https://t.me/BotFather
 
-TELEGRAM_BOT_TOKEN={token}
+TELEGRAM_BOT_TOKEN={8672374752:AAFIujzNvd88sMPQUKD-z7w_sJoGQz75tzU}
 
 # Database
 DATABASE_PATH=classplus_bot.db
